@@ -1,31 +1,25 @@
-## Next.js App Router Course - Starter
-
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
-
+<img src="https://img.shields.io/badge/status-development-green?logo=GitHub" alt="In Progress"> 
+<br/>
+Next Step: Chapter 3 
 
 # Project Introduction
-https://nextjs.org/learn/dashboard-app/
-
-# The project for?
+A dashboard application containing different features of NextJS. This serves as a great refresher and an opportunity to seek for feature candies that I have missed previously, especially after working on too many infrastructure and backend projects recently. This project repository is a follow along from the [NextJS official](https://nextjs.org/learn/dashboard-app/) website.
 
 
-# Design
-N/A - a tutorial meant to supplement learning.
+## Personal notes/learning points
+- A really great refresher of the core NextJS features to work with, and extra helpful if you've worked with `React` before. 
+- `clsx` library is great for toggling `if else` clauses on classes.
 
-# Notes / Learning Points
-- A really great refresher of all the features to be aware of, especially if you've touched NextJS before.
-- `clsx` library is great for toggling if else clauses on classes
+## What's next after this repository?
+Time to utilise the knowledge to dish out some fancy frontends in my side projects.
 
-# What after?
-- Use knowledge for subsequent frontend projects
+### Technology Stack
+```NextJS, TypeScript, Tailwind, Vercel```
 
-# Technology Stack in repository
-`NextJS`, `TypeScript`, `Tailwind`, `Vercel`
-
-# Core Concepts/Terms in repository
+### Core Concepts
 `Frontend`
 
----
-Repository Status (not started, in progress, maintenance, completed): In Progress, Chapter 3
+# This is cool, can you help me do the same?
+Happy to work with you, contact me at `syahriikram@gmail.com`
+
+[![GitHub Syahri](https://img.shields.io/github/followers/syahriikram?label=follow&style=social)](https://github.com/syahriikram)
