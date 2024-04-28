@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/status-development-green?logo=GitHub" alt="In Progress"> 
 <br/>
-Next Step: Chapter 8
+Next Step: Chapter 9
 
 # Project Introduction
 A dashboard application containing different features of NextJS. This serves as a great refresher and an opportunity to seek for feature candies that I have missed previously, especially after working on too many infrastructure and backend projects recently. This project repository is a follow along from the [NextJS official](https://nextjs.org/learn/dashboard-app/) website.
@@ -17,6 +17,8 @@ A dashboard application containing different features of NextJS. This serves as 
 - `usePathname` with `clsx` combo for active links.
 - By default NextJS uses React Server Componments which executes on the server which helps with directly querying a database without an additional API layer.
 - `Promise.all(..)` can help with parallel calls instead of default waterfall fetches 
+- Always consider which components should be statically vs dynamically rendered.
+- Note that with dynamic rendering, your applicaiton is only as fast as your slowest data fetch.
 
 - There are quizzes during the walkthrough to test your understanding which was extremely helpful.
 
