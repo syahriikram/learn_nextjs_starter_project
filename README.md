@@ -13,7 +13,8 @@ A dashboard application containing different features of NextJS. This serves as 
 - `next/image` to allow automatic optimisation of images by using `<Image>` tag instead of usual `<img>` (place it in `/public`). 
 - `className="hidden md:block"` helps to remove image from DOM on mobile screens and md:block to show on desktop screens, and inversely `block md:hidden`.
 - `page.tsx` for base navigation routes in a particular folder and `layout.tsx` for sharing UI between multiple pages (helps with partial rendering).
-
+- Use `<Link>` instead of `<a>` for navigation as the latter performs full page refresh.
+- `usePathname` with `clsx` combo for active links.
 
 - There was also quizzes during the tutorial walkthrough to test your understanding which was extremely helpful.
 
