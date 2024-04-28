@@ -18,7 +18,9 @@ A dashboard application containing different features of NextJS. This serves as 
 - By default NextJS uses React Server Componments which executes on the server which helps with directly querying a database without an additional API layer.
 - `Promise.all(..)` can help with parallel calls instead of default waterfall fetches 
 - Always consider which components should be statically vs dynamically rendered.
-- Note that with dynamic rendering, your applicaiton is only as fast as your slowest data fetch.
+- Note that with dynamic rendering, your application is only as fast as your slowest data fetch.
+- Streaming helps to overcome it to a degree, `loading.tsx` is a special file built on top of `Suspense`.
+- Folders with () won't be included in URL path, e.g. /abc/(a)/b.tsx becomes /abc
 
 - There are quizzes during the walkthrough to test your understanding which was extremely helpful.
 
