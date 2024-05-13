@@ -21,6 +21,7 @@ A dashboard application containing different features of NextJS. This serves as 
 - Note that with dynamic rendering, your application is only as fast as your slowest data fetch.
 - Streaming helps to overcome it to a degree, `loading.tsx` is a special file built on top of `Suspense`.
 - Folders with () won't be included in URL path, e.g. /abc/(a)/b.tsx becomes /abc
+- Partial Prerendering, an experimental feature that allows you to render a route with static loading shell, while keeping some parts dynamic
 
 - There are quizzes during the walkthrough to test your understanding which was extremely helpful.
 
