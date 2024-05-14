@@ -1,9 +1,9 @@
 <img src="https://img.shields.io/badge/status-development-green?logo=GitHub" alt="In Progress"> 
 <br/>
-Next Step: Chapter 9
+Next Step: Chapter 11
 
 # Project Introduction
-A dashboard application containing different features of NextJS. This serves as a great refresher and an opportunity to seek for feature candies that I have missed previously, especially after working on too many infrastructure and backend projects recently. This project repository is a follow along from the [NextJS official](https://nextjs.org/learn/dashboard-app/) website.
+A dashboard application containing different features of NextJS. This serves as a great refresher and an opportunity to seek for feature candies that I have missed previously, especially after working on more infrastructure and backend projects in my professional life. This project repository is a follow along from the [NextJS official](https://nextjs.org/learn/dashboard-app/) website.
 
 
 ## Personal notes/learning points
@@ -22,6 +22,14 @@ A dashboard application containing different features of NextJS. This serves as 
 - Streaming helps to overcome it to a degree, `loading.tsx` is a special file built on top of `Suspense`.
 - Folders with () won't be included in URL path, e.g. /abc/(a)/b.tsx becomes /abc
 - Partial Prerendering, an experimental feature that allows you to render a route with static loading shell, while keeping some parts dynamic
+- URL search params allows bokmarkable and shareable URLs, Server-Side rendering and initial load with Analytics/Tracking.
+- `useSearchParams` allows you to retrieve URL query strings in JSON format
+- `usePathname` loads current URL pathname (e.g. /dashboard/invoices)
+- `useRouter` enables navigation between routes within client components programmatically.
+- `use client` to use event listeners and hooks for client-side.
+- Utilise debouncing to limit rate at which function can fire.
+
+
 
 - There are quizzes during the walkthrough to test your understanding which was extremely helpful.
 
