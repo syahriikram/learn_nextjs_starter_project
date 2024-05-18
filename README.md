@@ -34,7 +34,10 @@ A dashboard application containing different features of NextJS. This serves as 
 - it's generally good practice to store monetary values in cents in database.
 - `revalidatePath` is great to clear cache and trigger a new request to server
 - Dynamic Route Segments creates routes based on data, if you add square brackets to the folders, e.g. `[id]` 
-
+- `error.tsx` servers as a catch-all for unexpected er rors and allows to display fallback UI to users.
+- `error.tsx` needs to be a client component.
+- use `notFound` function instead of catch all for a resource that doesn't exist, special page: `not-found.tsx`.
+- `notFound` will take precedence over `error.tsx`
 
 - There are quizzes during the walkthrough to test your understanding which was extremely helpful.
 
