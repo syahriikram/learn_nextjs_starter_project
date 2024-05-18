@@ -28,7 +28,12 @@ A dashboard application containing different features of NextJS. This serves as 
 - `useRouter` enables navigation between routes within client components programmatically.
 - `use client` to use event listeners and hooks for client-side.
 - Utilise debouncing to limit rate at which function can fire.
-
+- `use server` for server-side works, which essentially creates APIs for you internally.
+- in `form`, the return values even for type=`number` is string
+- use `Zod` a typescript-first validation library to simplify validation works (similar to `pydantic` in python).
+- it's generally good practice to store monetary values in cents in database.
+- `revalidatePath` is great to clear cache and trigger a new request to server
+- Dynamic Route Segments creates routes based on data, if you add square brackets to the folders, e.g. `[id]` 
 
 
 - There are quizzes during the walkthrough to test your understanding which was extremely helpful.
