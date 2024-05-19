@@ -1,6 +1,4 @@
-<img src="https://img.shields.io/badge/status-development-green?logo=GitHub" alt="In Progress"> 
-<br/>
-Next Step: Chapter 15
+<img src="https://img.shields.io/badge/status-development-green?logo=GitHub" alt="Completed"> 
 
 # Project Introduction
 A dashboard application containing different features of NextJS. This serves as a great refresher and an opportunity to seek for feature candies that I have missed previously, especially after working on more infrastructure and backend projects in my professional life. This project repository is a follow along from the [NextJS official](https://nextjs.org/learn/dashboard-app/) website.
@@ -46,12 +44,11 @@ A dashboard application containing different features of NextJS. This serves as 
 - `NextAuth` used as authentication component, and it significantly simplies 
 - `Next.js Middleware` is called before a request is completed, and it receives an object with auth and request properties.
 - Metadata is useful for SEO and NextJS has a Metadata API.
-
-- There are quizzes during the walkthrough to test your understanding which was extremely helpful.
+- There are quizzes during the walkthrough to test your understanding which was extremely helpful!
 
 ## What's next after this repository?
-- To utilise the knowledge to dish out some fancy frontends in my side projects.
-- https://web.dev/learn/accessibility/ for learning Accessibility in web developments
+- To utilise the knowledge to to create more modernised frontends in my projects.
+- https://web.dev/learn/accessibility/ for learning Accessibility in web development.
 
 ### Technology Stack
 ```NextJS, TypeScript, Tailwind, Vercel, Postgres```
