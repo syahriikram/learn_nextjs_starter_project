@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/status-development-green?logo=GitHub" alt="Completed"> 
+<img src="https://img.shields.io/badge/status-completed-green?logo=GitHub" alt="Completed"> 
 
 # Project Introduction
 A dashboard application containing different features of NextJS. This serves as a great refresher and an opportunity to seek for feature candies that I have missed previously, especially after working on more infrastructure and backend projects in my professional life. This project repository is a follow along from the [NextJS official](https://nextjs.org/learn/dashboard-app/) website.
