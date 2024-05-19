@@ -42,6 +42,10 @@ A dashboard application containing different features of NextJS. This serves as 
 - use server-side form validation in case client-side validation is bypassed (e.g. `required` attribute).
 - use `safeParse` which returns object containing success or error field; helps to handle validation instead of try/catch block.
 - use `aria-describedby` with useFormState errors to seamlessly link to a UI input against error div.
+- Reminder: authentication checks who you are, and authorization determines what you can do or access in the application.
+- `NextAuth` used as authentication component, and it significantly simplies 
+- `Next.js Middleware` is called before a request is completed, and it receives an object with auth and request properties.
+- Metadata is useful for SEO and NextJS has a Metadata API.
 
 - There are quizzes during the walkthrough to test your understanding which was extremely helpful.
 
